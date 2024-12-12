@@ -62,7 +62,7 @@ class Cart:
             print("\nThank you for shopping with Bukola store! Your order has been placed, you should get a confirmation email.")#confirmation email
             self.cart.clear()  # Clear the cart after each checkout
         else:
-            print("\nCheckout canceled.")
+            print("\nCheckout cancelled.")
 
     # a way to save the current cart to a CSV file
     def save_cart(self, filename="cart.csv"):
